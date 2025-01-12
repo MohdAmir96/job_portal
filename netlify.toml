@@ -6,3 +6,6 @@
 [dev]
   command = "npm run dev"
   port = 3000
+
+[build.environment]
+  NODE_VERSION = "16"  # Optional: Specify Node.js version if needed
