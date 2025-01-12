@@ -1,6 +1,6 @@
 [build]
   base = "job-portal/frontend"
-  command = "npm install && npm run build"
+  command = "npm run build"
   publish = "job-portal/frontend/dist"
 
 [dev]
