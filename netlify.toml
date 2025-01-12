@@ -1,0 +1,16 @@
+# vercel.toml
+[project]
+# Project-specific configuration
+
+[build]
+  command = "npm run build"
+  outputDirectory = "dist"
+  rootDirectory = "job-portal/frontend"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
+
+[[routes]]
+  src = "/(.*)"
+  dest = "/index.html"
